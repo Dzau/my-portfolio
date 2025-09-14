@@ -1,0 +1,27 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Drew Zauel | Portfolio"
+theme = "PaperMod"
+
+[params]
+  author = "Drew Zauel"
+  description = "A portfolio showcasing my work in data science and programming."
+  # You can find more theme options in the PaperMod documentation
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Features
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume.pdf" # Make sure you add a resume.pdf file later
+    weight = 30
